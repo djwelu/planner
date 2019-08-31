@@ -1,12 +1,12 @@
 import React from "react";
 import {StyleSheet, Text, View, Alert} from "react-native";
-import {createMaterialTopTabNavigator,} from 'react-navigation';
+import {createAppContainer, createMaterialTopTabNavigator,} from 'react-navigation';
 import { Icon } from 'react-native-elements';
 import Month from './Month';
 import Day from './Day';
 import Inputs from './Inputs';
 
-export const Tabs = createMaterialTopTabNavigator({
+const Tabs = createAppContainer(createMaterialTopTabNavigator({
     Day: {
         screen: Day,
         navigationOptions: {
@@ -34,7 +34,7 @@ export const Tabs = createMaterialTopTabNavigator({
             style: {backgroundColor: 'red',},
         },
     }
-);
+));
 
 export default class App extends React.Component {
     navChange = (prevState, newState) => {
