@@ -1,6 +1,5 @@
-import React, { Component } from "react";
-import {AsyncStorage, StyleSheet, Text, View, Alert, ScrollView, StatusBar} from "react-native";
-import Button from "react-native-button";
+import React from "react";
+import { AsyncStorage, StyleSheet, Text, View, Alert, ScrollView, StatusBar } from "react-native";
 import Post from './Post.js';
 
 export default class Day extends React.Component {

@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import {AsyncStorage, StyleSheet, Text, View, Alert, ScrollView} from "react-native";
-import {Calendar} from "react-native-calendars";
+import React from "react";
+import { AsyncStorage, StyleSheet, Text, View, Alert, ScrollView } from "react-native";
+import Calendar from "react-native-calendars";
 import PostMonth from './PostMonth.js';
 
 export default class Month extends React.Component {

@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import {AsyncStorage, StyleSheet, Text, TextInput, View, ScrollView, Switch, Alert, KeyboardAvoidingView} from "react-native";
+import React from "react";
+import { AsyncStorage, StyleSheet, Text, TextInput, Switch, Alert, KeyboardAvoidingView } from "react-native";
 import Button from "react-native-button";
 
 export default class Inputs extends React.Component {
